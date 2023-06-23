@@ -45,8 +45,18 @@
     padding-bottom: 12px;
 }
 
+
+.missing-puppy {
+    backgrou
+    height: 48.5vh;
+    width: 100%;
+}
+
+
 .text1{
-    background-color: coral;
+      margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 .footer_1{
