@@ -41,15 +41,19 @@
 
 .text2 {
     text-align: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-family: sans-serif;
+    vertical-align: middle;
 }
 
 
 .missing-puppy {
     background-color: crimson;
-    height: 48.5vh;
+    height: 53.5vh;
     width: 100%;
+    text-align: center;
 }
 
 
