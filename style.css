@@ -3,71 +3,79 @@
     padding: 0;
 }
 
-.heading {
-    background-color: #00b7ff;
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color: white;
-    font-weight: 900;
-    font-family: sans-serif;
-}
-
-.image1 {
+.banner img {
     width: 100%;
 }
 
-.page {
-    padding-left: 20px;
-    padding-right: 20px;
-    align-items: center;
+.banner {
+    margin-bottom: 84px;
 }
 
-.puppy {
+img {
+    max-width: 100%;
+}
+
+.img-1,
+.missing-puppy,
+.img-2 {
+    width: 33%;
+}
+
+.img-1 img,
+.missing-puppy img,
+.img-2 img {
+    width: 100%;
+    height: auto;
+}
+
+.page-section .puppy {
     display: flex;
-    align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    justify-content: space-between;
+}
+
+.page-section {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .puppy1 {
     display: flex;
-    align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
     justify-content: space-between;
 }
 
-.text2 {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 900;
-    font-family: sans-serif;
-    vertical-align: middle;
+.blueBG {
+    background-color: #085070;
 }
-
 
 .missing-puppy {
-    background-color: crimson;
-    height: 53.5vh;
-    width: 100%;
+    background-color: #f04d65;
+    margin: 0 1%;
+}
+
+.missing-wrapper {
+    font-size: 44px;
+    padding: 86px 50px 45px;
     text-align: center;
 }
 
+.additional-puppies p {
+    text-align: center;
+    font-size: 40px;
+    padding: 60px;
+}
 
-.text1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+.myHeader {
+    padding-top: 27px;
+    padding-bottom: 24px;
+    color: white;
     text-align: center;
 }
 
-.footer_1 {
-    background-color: blue;
-    width: 100%;
-    height: 150px;
+footer {
+    margin-top: 75px;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    color: white;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    font-size: 40px;
 }
