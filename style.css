@@ -1,82 +1,95 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .banner img {
-    width: 100%;
+  width: 100%;
 }
 
 .banner {
-    margin-bottom: 75px;
+  margin-bottom: 75px;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .img-1,
 .missing-puppy,
 .img-2 {
-    width: 33%;
+  width: 33%;
 }
 
 .img-1 img,
 .missing-puppy img,
 .img-2 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .page-section .puppy {
-    display: flex;
+  display: flex;
 }
 
 .page-section {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .puppy1 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .blueBG {
-    background-color: #085070;
+  background-color: #085070;
 }
 
 .missing-puppy {
-    background-color: #f04d65;
-    margin: 0 1%;
-    height: 54.4vh;
+  background-color: #f04d65;
+  margin: 0 1%;
+  height: 54.4vh;
 }
 
 .missing-wrapper {
-    font-size: 44px;
-    padding: 86px 50px 45px;
-    text-align: center;
+  font-size: 44px;
+  padding: 86px 50px 45px;
+  text-align: center;
 }
 
 .additional-puppies p {
-    text-align: center;
-    font-size: 40px;
-    padding: 60px;
+  text-align: center;
+  font-size: 40px;
+  padding: 60px;
 }
 
+@media (max-width: 834px) {
+  .missing-puppy {
+    display: none;
+  }
+
+  .puppy1 {
+    display: block;
+  }
+
+  .page-section .puppy {
+    display: block;
+  }
+}
 .myHeader {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    color: white;
-    text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: white;
+  text-align: center;
 }
 
 footer {
-    margin-top: 75px;
-    padding-top: 100px;
-    padding-bottom: 125px;
-    color: white;
-    text-align: center;
-    font-size: 40px;
+  margin-top: 75px;
+  padding-top: 100px;
+  padding-bottom: 125px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
 }
